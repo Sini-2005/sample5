@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Login</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('https://via.placeholder.com/1366x768'); /* Replace with the Netflix background image URL */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #fff;
+        }
+
+        .login-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: rgba(0, 0, 0, 0.75);
+        }
+
+        .login-box {
+            width: 350px;
+            padding: 20px;
+            background-color: #000;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        .login-box h1 {
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .login-box form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .login-box input[type="text"],
+        .login-box input[type="password"] {
+            padding: 12px;
+            margin-bottom: 15px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        .login-box button {
+            padding: 12px;
+            background-color: #e50914;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .login-box button:hover {
+            background-color: #f6121d;
+        }
+
+        .login-box a {
+            text-decoration: none;
+            color: #b3b3b3;
+            font-size: 14px;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .login-box a:hover {
+            color: #fff;
+        }
+
+        .remember-me {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            color: #b3b3b3;
+            font-size: 14px;
+        }
+
+        .remember-me input {
+            margin-right: 10px;
+        }
